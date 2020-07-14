@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+html{
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  min-height:100%;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8)), url('Static/background/star.gif');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notesWrapper {
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  min-height: 2.5em;
+  max-height: 2em;
+  font-size: 1.7em;
+  color: #dcf465;
+  font-family: 'Source Code Pro ExtraLight';
+  text-align: center;
+  align-content: center;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 0px;
+  background-color: rgba(0, 201, 167, 0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
 }
+
+.notesFooter {
+  display: flex;
+  flex: 1 1 15%;
+  background-color: rgba(0, 0, 0, 0);
+}
+

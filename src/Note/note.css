@@ -1,0 +1,48 @@
+.note {
+    padding:10px 10px 38px 34px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    font-family: 'Source Code Pro ExtraLight';
+    font-size: 1.4em;
+    color: #222;
+    background-color: #00c9a7;
+    border-radius: 50px;
+    box-shadow: 5px 10px #0d3d36;
+    opacity: 4;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+@keyframes fadeOut { from { opactiy:0.8; } to { opacity:0; } }
+
+.fade-in {
+    opacity:0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 2s;
+}
+
+.noteContent{
+    float:left;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.closebtn {
+    color: #AA9;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em;
+    animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.closebtn:hover {
+    color: #AC2500;
+}
