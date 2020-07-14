@@ -1,6 +1,33 @@
+An awesome and very simple web app.It includes a features like a simple flexbox layout, and provides the fully fledged ability for any user to add and remove their vision,ideas and poems from a Firebase database.
 
-In the project directory, you can run:
+## It's Live 🎉 Visit here ==>https://shareyourvision.netlify.app/
+# Or 
+## If you want to Install Locally
+- First step is to download this repo 
+- place it inside a project directory 
+- Then Configure the `config.js` file 
+- `Insert your own Api key of firebase`
 
+### Setup process
+type `npm start`
+
+# Boom Shakalaka !
+#### open your browser and type the address 
+#### It looks something like this :::
+~~~bash
+http://localhost:3000/
+~~~
+### Enjoy!
+![vision](https://user-images.githubusercontent.com/37651620/87466868-c0004c00-c636-11ea-9cb3-5e807bf24791.gif)
+
+# Deploying the App
+
+## -First step 
+### `yarn run build`
+
+## Boom!! done...
+
+# `Some tips and tricks`
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -33,3 +60,18 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
+### `Serving the recently build application`
+# `yarn global add serve`
+
+## Finally
+# `serve -s build`
+
+# Cheers !
+#### open your browser and type the address 
+#### It looks something like this :::
+~~~bash
+http://127.0.0.1:3000/
+~~~
+### Enjoy!
