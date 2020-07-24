@@ -1,7 +1,9 @@
 An awesome and very simple web app.It includes a features like a simple flexbox layout, and provides the fully fledged ability for any user to add and remove their vision,ideas and poems from a Firebase database.
 
 ## It's Live 🎉 Visit here ==>https://shareyourvision.netlify.app/
+---
 # Or 
+---
 ## If you want to Install Locally
 - First step is to download this repo 
 - place it inside a project directory 
