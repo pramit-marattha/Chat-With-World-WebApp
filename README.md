@@ -1,4 +1,4 @@
-An awesome and very simple web app.It includes a features like a simple flexbox layout, and provides the fully fledged ability for any user to add and remove their vision,ideas and poems from a Firebase database.
+An awesome and very simple web app.It includes a features like a simple flexbox layout, and provides the fully fledged ability for any user to add and remove their vision,ideas and poems from a Firebase database.Its free & always will be also there are no-ads.
 
 ## It's Live 🎉 Visit here ==>https://shareyourvision.netlify.app/
 ---
